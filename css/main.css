@@ -19,3 +19,12 @@ body {
 .hidden {
     display: none;
 }
+
+.icons div {
+    width: 45%;
+    display: inline-block;
+}
+
+.icons div img {
+    width: 100%;
+}
