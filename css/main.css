@@ -7,13 +7,79 @@
 
 }
 
-body {
+body { 
+    font-family: sans-serif;
+    /* background-color: black; */
+    color: white;
+    /* background-image: url('../images/denim.png'); */
+    background-color: #fff; 
+    
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+
+#main-header {
+    background-color: red;
+    top: 0;
+    position: sticky;
+    z-index: 999999 !important;
+}
+header nav { position: relative; }
+  
+header nav ul { 
+    list-style-type: none; 
+    position: absolute; 
+    top: -45px; 
+    right: 20px; 
+}
+  
+header nav ul li { 
+    margin: 0 8px; 
+    display: inline-block;
+    cursor: pointer;
+}
+  
+  /* add a down arrow after the last list item */
+header li:last-of-type::after { 
+    content: "\25bc";
+    padding-left: 4px;
+}
+  
+header nav ul li:hover { opacity: 0.8; }
+
+#icons-nav { 
+    text-align: center; 
+    padding-top: 16px;
+    margin-bottom: 1em;
+}
+
+.musicInstruments {
+    list-style-type: none;
+}
+
+.musicInstruments li { 
+  display: inline-block;
+  position: relative;
+  width: 180px;
+  height: 180px;
+  border-radius: 12px;
+  border: 4px solid #333;
+  padding-top: 8px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.musicInstruments li img {
+    transform: rotate(20deg);
+}
+.musicInstruments li h3 {
+    position: relative;
+    color: black;
+    padding: 12px 8px;
+    text-transform: uppercase;
     font-size: 16px;
-    background-color: #fff;
-
-    color: #000;
-
-    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .hidden {
@@ -28,3 +94,21 @@ body {
 .icons div img {
     width: 100%;
 }
+
+#main-logo {
+    width: 200px; padding: 10px 0 10px 10px;
+}
+
+footer { 
+    color: white;
+    padding: 20px 0;
+    text-align: center; 
+  }
+
+.sticky_footer {
+    position: sticky;
+    top: 100%;
+  
+    height: 80px;
+    background-color: rgb(40, 37, 37);
+  }

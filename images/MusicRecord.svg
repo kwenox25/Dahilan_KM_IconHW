@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="282.4px" height="282.4px" viewBox="0 0 282.4 282.4" style="enable-background:new 0 0 282.4 282.4;" xml:space="preserve"
+	>
+<style type="text/css">
+	.st0{fill:#475F71;}
+	.st1{fill:#8FA4AE;}
+	.st2{fill:#253238;}
+	.st3{fill:#FEC114;}
+</style>
+<g>
+	<g>
+		<path class="st0" d="M211.8,18.9C191.1,6.9,166.9,0,141.2,0C63.2,0,0,63.2,0,141.2c0,25.4,6.7,49.2,18.4,69.7l126.1-69L211.8,18.9
+			z"/>
+		<path class="st0" d="M144.5,141.9L76.3,266.6c19.4,10.1,41.5,15.8,64.9,15.8c78,0,141.2-63.2,141.2-141.2
+			c0-23.8-5.9-46.2-16.3-65.8L144.5,141.9z"/>
+		<path class="st1" d="M18.4,210.9C31.9,234.6,52,254,76.3,266.6l68.2-124.7L18.4,210.9z"/>
+		<path class="st1" d="M266.1,75.4c-12.4-23.5-31.3-43.1-54.3-56.4l-67.3,123L266.1,75.4z"/>
+	</g>
+	<circle class="st2" cx="140.5" cy="141.2" r="60.5"/>
+	<circle class="st3" cx="140.5" cy="141.2" r="50.6"/>
+	<circle class="st2" cx="140.5" cy="141.2" r="23.1"/>
+</g>
+<image style="display:none;overflow:visible;" width="48" height="48" xlink:href="../../icons8-music-record-48.png"  transform="matrix(6.8542 0 0 6.8542 -23.3085 -21.109)">
+</image>
+</svg>
