@@ -21,38 +21,37 @@ let Xylophone = document.querySelector("#Xylophone");
 
 // step #3 - what happens when events are triggered?
 
-// function logID() {
-//     console.log(this.id);
-// }
 function logID() {
-    alert("You have chosen Acordion!");
+    console.log("You have clicked the Acordion!");
 }
+
 function Cymbal() {
-    alert("You have chosen Cymbals!");
+    console.log("You have clicked the Cymbal!");
 }
+
 function ElectricGuitars() {
-    alert("You have chosen Electric Guitar!");
+    console.log("You have clicked the Electric Guitar!");
 }
 function Flutes() {
-    alert("You have chosen Flute!");
+    console.log("You have clicked the Flute!");
 }
 function Guitars() {
-    alert("You have chosen Guitar!");
+    console.log("You have clicked the Guitar!");
 }
 function Microphones() {
-    alert("You have chosen Microphone!");
+    console.log("You have clicked the Microphone!");
 }
 function SnareDrum() {
-    alert("You have chosen Snare Drums!");
+    console.log("You have clicked the Snare Drum!");
 }
 function MusicRecords() {
-    alert("You have chosen Music Record!");
+    console.log("You have clicked the Music Record!");
 }
 function Pianos() {
-    alert("You have chosen Music Piano!");
+    console.log("You have clicked the Piano!");
 }
 function Xylophones() {
-    alert("You have chosen Xylophone!");
+    console.log("You have clicked the xylophone!");
 }
 
 // step #2 - how do you want the user to interact with the element?
