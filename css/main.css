@@ -9,11 +9,8 @@
 
 body { 
     font-family: sans-serif;
-    /* background-color: black; */
     color: white;
-    /* background-image: url('../images/denim.png'); */
     background-color: #fff; 
-    
     background-size: cover;
     background-blend-mode: overlay;
 }
@@ -28,18 +25,32 @@ body {
 header nav { position: relative; }
   
 header nav ul { 
-    list-style-type: none; 
+    list-style: none;
     position: absolute; 
     top: -45px; 
     right: 20px; 
 }
   
 header nav ul li { 
+    list-style: none;
     margin: 0 8px; 
     display: inline-block;
     cursor: pointer;
 }
+
+header ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: #FFF;
+	font-size: 16px;
+}
+
+header ul li a:hover {
+    border-bottom: 3px solid black;
+    color:  #f1c761;
+}
   
+
   /* add a down arrow after the last list item */
 header li:last-of-type::after { 
     content: "\25bc";
@@ -96,8 +107,28 @@ header nav ul li:hover { opacity: 0.8; }
 }
 
 #main-logo {
-    width: 200px; padding: 10px 0 10px 10px;
+    width: 160px;
+    padding: 10px 0 10px 10px;
 }
+
+footer nav ul li { 
+    margin: 0 8px; 
+    display: inline-block;
+    cursor: pointer;
+}
+
+footer ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: #FFF;
+	font-size: 16px;
+}
+
+footer ul li a:hover {
+    border-bottom: 3px solid black;
+    color:  #f1c761;
+}
+  
 
 footer { 
     color: white;
@@ -110,5 +141,5 @@ footer {
     top: 100%;
   
     height: 80px;
-    background-color: rgb(40, 37, 37);
+    background-color: red;
   }
